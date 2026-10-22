@@ -32,7 +32,7 @@ python3 工具/构建静态站.py
 python3 工具/部署Cloudflare.py
 ```
 
-构建仅把原始 HTML 复制为 `dist/index.html`，并附加 `_headers`。Cloudflare Pages 项目为 `store-operations-demo`，生产分支为 `main`，采用 Pages Direct Upload（脚本用 `--force` 保持 Pages 部署路径）。GitHub 推送与站点发布分别执行；发布需本机已有 Wrangler 授权。
+构建仅把原始 HTML 复制为 `dist/index.html`，并附加 `_headers`。Cloudflare Pages 项目为 `store-operations-demo`，生产分支为 `main`，采用 Pages Direct Upload。GitHub 推送与站点发布分别执行；发布需本机已有 Wrangler 授权。
 
 Git 仅提交源码、说明和部署工具；不提交本机授权、浏览器记录、验收截图及生成的 `dist`。
 
