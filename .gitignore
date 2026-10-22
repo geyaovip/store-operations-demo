@@ -1,0 +1,10 @@
+.DS_Store
+.playwright-cli/
+output/
+体验验收/
+.wrangler/
+dist/
+node_modules/
+*.log
+.env
+.env.*
